@@ -86,6 +86,11 @@
         android:key="kiosk"
         android:title="@string/kiosk" />
     <Preference
+        android:fragment="com.hardkernel.odroid.settings.MiscFragment"
+        android:icon="@drawable/ic_menu_manage"
+        android:key="misc"
+        android:title="@string/misc_settings" />
+    <Preference
         android:icon="@drawable/ic_info_outline"
         android:key="netflix_esn"
         android:title="@string/netflix_esn"/>
