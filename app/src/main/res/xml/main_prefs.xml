@@ -91,6 +91,11 @@
         android:key="kiosk"
         android:title="@string/kiosk" />
     <Preference
+        android:fragment="com.hardkernel.odroid.settings.dtbo.DTBOverlayFragment"
+        android:icon="@drawable/dtb_overlay_icon"
+        android:key="dtbo"
+        android:title="@string/overlay_title" />
+    <Preference
         android:fragment="com.hardkernel.odroid.settings.MiscFragment"
         android:icon="@drawable/ic_menu_manage"
         android:key="misc"
